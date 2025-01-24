@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e1f2; /* Розовый фон */
+    color: #333;
+}
+
+/* Заголовок */
+header {
+    background-color: #ffb6c1; /* Светло-розовый */
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    border-bottom: 5px solid #ff6f61;
+}
+
+header h1 {
+    font-size: 28px; /* Уменьшаем шрифт для мобильных */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Содержимое текста */
+.content {
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.content p {
+    font-size: 16px; /* Уменьшаем шрифт для мобильных */
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Поддержка смайликов и эмодзи */
+.content p span {
+    font-size: 24px;
+}
+
+/* Футер */
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Меньший размер шрифта для удобства чтения на мобильных */
+    }
+
+    header h1 {
+        font-size: 24px; /* Меньший размер заголовка */
+    }
+
+    .content p {
+        font-size: 14px; /* Уменьшаем размер текста */
+    }
+
+    footer {
+        font-size: 12px; /* Уменьшаем размер текста в футере */
+        padding: 10px;
+    }
+}
